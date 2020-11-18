@@ -45,6 +45,11 @@ p {
   color: #fff;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -147,7 +152,7 @@ p {
   padding: 0 2rem;
   /* Overlay */
   position: absolute;
-  top: 60px;
+  top: 65px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -198,5 +203,39 @@ p {
   margin: auto;
   width: 60%;
 }
+
+/* Section: Clients */
+
+#contact {
+  display: flex;
+}
+
+#contact .map, #contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem 0;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.map-img {
+  flex: 1;
+}
+
+#contact .map-img {
+  background: url(../img/google-maps-new-logo-810x298_c.jpg) no-repeat center center/cover;
+
+}
+
 
 
